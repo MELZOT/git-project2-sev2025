@@ -10,7 +10,10 @@ public class SubApp {
         System.out.printf("Sub: %d", result );
     }
     public static int sub(int a, int b){
-        int result =a-b;
-        return result ;
+
+        int result =0;
+        result = a-b;
+        return result;
+
     }
 }
